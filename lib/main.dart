@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Container(
-            color: Colors.white,
+            color: Colors.red,
             child: Text('Hello'),
           ),
         ),
