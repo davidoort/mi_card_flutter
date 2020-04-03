@@ -21,11 +21,17 @@
             "type": "dart",
             "deviceId": "1E879EAE-5899-4BDA-B2B4-64043CAC5B39"
         },
+        {
+            "name": "Harware iPhone",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "d8f3dbe289d07d602f98b66c2b75715228b9cf80"
+        },
     ],
     "compounds": [
         {
             "name": "All Devices",
-            "configurations": ["Android", "iPhone"],
+            "configurations": ["Android", "iPhone", "Harware iPhone"],
         }
     ]
 }

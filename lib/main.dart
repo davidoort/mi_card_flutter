@@ -12,10 +12,8 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              SizedBox(
-                height: 150,
-              ),
               CircleAvatar(
                 radius: 70,
                 backgroundImage: AssetImage('images/profile_pic.jpg'),
@@ -46,13 +44,21 @@ class MyApp extends StatelessWidget {
                 ],
               ),
               Text(
-                'FLUTTER WANNABE',
+                'FLUTTER NOOB',
                 style: TextStyle(
                   fontFamily: 'SourceSans',
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.teal.shade100,
                   letterSpacing: 2,
+                ),
+              ),
+              SizedBox(
+                height: 20,
+                width: 200,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                  thickness: 1.5,
                 ),
               ),
               Container(
@@ -99,7 +105,7 @@ class MyApp extends StatelessWidget {
                       width: 30,
                     ),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         Text(
                           'davidoort@email.com',
